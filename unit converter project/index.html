@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="maths.jpg">
+    
+    <h1 id="heading">Unit Converter</h1>
+
+    <div id="container">
+        <div class="input-div"></div>
+        <label >Kilometer</label><br>
+        <input type="Number" value="" placeholder='0' id="kilometer" class="input" oninput="convertToOthers('kilometer',this.value)">
+    
+
+        <div class="input-div"></div>
+        <label >Meter</label><br>
+        <input type="Number" value="" placeholder='0' id="meter" class="input" oninput="convertToOthers('meter',this.value)">
+          
+
+        <div class="input-div"></div>
+        <label >Centimeter</label><br>
+        <input type="Number" value="" placeholder='0' id="centimeter" class="input" oninput="convertToOthers('centimeter',this.value)">
+          
+
+    </div> 
+    
+    <script src="myscript.js"></script>
+
+</body>
+
+</html>
